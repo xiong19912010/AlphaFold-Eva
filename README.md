@@ -3,9 +3,9 @@ python version at least 3.5 is required. If you download the package as a zip fi
 
 1.  AlphaFold_Eva relies on Tensorflow with version at least 2.0
 
-"""
+```
 pip install tensorflow-gpu==2.3.0
-"""
+```
 
 2. Add environment variables: 
 
@@ -16,6 +16,16 @@ export PATH=PATH_TO_ISONET_FOLDER/AlphaFold_Eva.py:$PATH
 4. Open a new terminal, enter your working directory and run 
 ```
 AlphaFold_Eva.py check
+```
+
+## Usage
+1. Run One command to test one complex
+```
+AlphaFold_Eva.py One --total_surface [value] --contact_surface [value] --surface_ratio [value] --dimension_ratio [value] 
+``` 
+2. Run Multi command to test multi complexes
+```
+AlphaFold_Eva.py Multi [input file path]
 ```
 
 
