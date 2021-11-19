@@ -11,7 +11,7 @@ pip install tensorflow-gpu==2.3.0
 
 For example add following lines in your ~/.bashrc  (or ~/.zshrc,, sometimes in macos system)
 ```
-export PATH=PATH_TO_ISONET_FOLDER/AlphaFold_Eva.py:$PATH  
+export PATH=PATH_TO_Alpha-Eva_FOLDER/AlphaFold_Eva.py:$PATH  
 ```
 4. Open a new terminal, enter your working directory and run 
 ```
