@@ -9,7 +9,7 @@ pip install tensorflow-gpu==2.3.0
 
 2. Add environment variables: 
 
-For example add following lines in your ~/.bashrc
+For example add following lines in your ~/.bashrc  (or ~/.zshrc,, sometimes in macos system)
 ```
 export PATH=PATH_TO_ISONET_FOLDER/AlphaFold_Eva.py:$PATH  
 ```
