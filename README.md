@@ -2,9 +2,11 @@
 python version at least 3.5 is required. If you download the package as a zip file from github, please rename the folder  AlphaFold_Eva.
 
 1.  AlphaFold_Eva relies on Tensorflow with version at least 2.0
+
 """
 pip install tensorflow-gpu==2.3.0
 """
+
 2. Add environment variables: 
 
 For example add following lines in your ~/.bashrc
