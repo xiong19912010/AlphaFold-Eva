@@ -1,10 +1,10 @@
 ## Installation
-python version at least 3.5 is required. If you download the package as a zip file from github, please rename the folder  AlphaFold_Eva.
+python version at least 3.5 is required (test version is 3.8.3). If you download the package as a zip file from github, please rename the folder as AlphaFold_Eva.
 
-1.  AlphaFold_Eva relies on Tensorflow with version at least 2.0
+1.  AlphaFold_Eva relies on keras with version 2.4.3
 
 ```
-pip install tensorflow-gpu==2.3.0
+pip install keras==2.4.3
 ```
 
 2. Add environment variables: 
