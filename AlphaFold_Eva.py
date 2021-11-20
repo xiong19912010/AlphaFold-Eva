@@ -124,7 +124,6 @@ def check_parse(args_list):
             
        else:
             if len(args_list) < 2:
-               
                print("Usage: " + sys.argv[0] +" "+ args_list[0]+ " [Input file path] ")
                exit(-1)
     else:
