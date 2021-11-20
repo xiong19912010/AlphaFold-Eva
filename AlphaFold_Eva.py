@@ -127,6 +127,9 @@ def check_parse(args_list):
                
                print("Usage: " + sys.argv[0] +" "+ args_list[0]+ " [Input file path] ")
                exit(-1)
+    else:
+         print('please provide either [One] or [Multi] keywords')
+         exit(-1)
 
 if __name__ == "__main__":
     # logging.basicConfig(format='%(asctime)s, %(levelname)-8s %(message)s',datefmt="%m-%d %H:%M:%S",level=logging.INFO)
