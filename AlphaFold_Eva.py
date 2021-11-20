@@ -92,11 +92,25 @@ class EVA:
     def check(self):
         import pandas as pd
         import numpy as np
-        import tensorflow as tf
+        import keras
+        import platform
         from keras.models import Sequential
         from keras.layers.core import Dense, Activation
         from sklearn.preprocessing import MinMaxScaler
+        from keras.models import Sequential
+        from keras.layers.core import Dense
+        from keras.optimizers import SGD
+        from keras.layers import SimpleRNN, LSTM
+        from keras.layers import Dense, Dropout, Flatten
+        from keras.callbacks import EarlyStopping
+        from sklearn import metrics
+        from sklearn.model_selection import cross_val_score
+        from keras.wrappers.scikit_learn import KerasRegressor
+        from keras.models import load_model
+        import joblib
         print('AlphaFold-Eva --version 0.1')
+        print("python version: " + platform.python_version())
+        print("keras version: "+keras.__version__)
 
 
 def check_parse(args_list):
@@ -105,13 +119,13 @@ def check_parse(args_list):
        if args_list[0] in ['One']:
             if len(args_list) < 9:
                print("please include all the parameters")
-               print("Usage: python3 " + sys.argv[0] + " "+ args_list[0]+ " [total_surface] [contact_surface] [surface_ratio] [dimension_ratio]")
+               print("Usage: " + sys.argv[0] + " "+ args_list[0]+ " [total_surface] [contact_surface] [surface_ratio] [dimension_ratio]")
                exit(-1)
             
        else:
             if len(args_list) < 2:
                
-               print("Usage: python3 " + sys.argv[0] +" "+ args_list[0]+ " [Input file path] ")
+               print("Usage: " + sys.argv[0] +" "+ args_list[0]+ " [Input file path] ")
                exit(-1)
 
 if __name__ == "__main__":
