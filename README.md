@@ -28,7 +28,7 @@ AlphaFold_Eva.py One --total_surface [value] --contact_surface [value] --surface
 AlphaFold_Eva.py Multi [input file path]
 ```
 
-## prediction results
+## Prediction results
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/94659159/179382700-5f9fd30d-4f44-43d4-9719-350f3aef1832.png">
 
