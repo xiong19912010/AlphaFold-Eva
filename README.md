@@ -32,7 +32,8 @@ AlphaFold_Eva.py Multi [input file path]
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/94659159/179382700-5f9fd30d-4f44-43d4-9719-350f3aef1832.png">
 
-<img width="724" alt="image" src="https://user-images.githubusercontent.com/94659159/179382714-9a80e8ea-0224-4c82-88d7-5425db45e9bc.png">
+<img width="815" alt="image" src="https://user-images.githubusercontent.com/94659159/179382739-fe58dc5a-fbc6-4d71-9648-0eaecddc1e73.png">
+
 
 
 
