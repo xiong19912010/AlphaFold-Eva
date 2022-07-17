@@ -28,6 +28,13 @@ AlphaFold_Eva.py One --total_surface [value] --contact_surface [value] --surface
 AlphaFold_Eva.py Multi [input file path]
 ```
 
+## prediction results
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/94659159/179382700-5f9fd30d-4f44-43d4-9719-350f3aef1832.png">
+
+<img width="724" alt="image" src="https://user-images.githubusercontent.com/94659159/179382714-9a80e8ea-0224-4c82-88d7-5425db45e9bc.png">
+
+
 
 <!---
 xiong19912010/xiong19912010 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
